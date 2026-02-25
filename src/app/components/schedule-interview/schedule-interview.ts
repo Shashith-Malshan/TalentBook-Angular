@@ -1,10 +1,10 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { TimeslotsHolder } from '../timeslots-holder/timeslots-holder';
 
 
 @Component({
   selector: 'app-schedule-interview',
-  imports: [CommonModule],
+  imports: [TimeslotsHolder],
   templateUrl: './schedule-interview.html',
   styleUrl: './schedule-interview.css',
 })

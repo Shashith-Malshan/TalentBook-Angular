@@ -6,7 +6,7 @@ import { DateTimeBar } from "../../components/date-time-bar/date-time-bar";
 
 @Component({
   selector: 'app-shedule',
-  imports: [NavBar, ScheduleInterview, Footer, DateTimeBar],
+  imports: [NavBar, ScheduleInterview, Footer],
   templateUrl: './shedule.html',
   styleUrl: './shedule.css',
 })

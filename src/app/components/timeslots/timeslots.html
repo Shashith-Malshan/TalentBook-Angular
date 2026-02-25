@@ -1,0 +1,5 @@
+<button type="button" (click)="handleClick()" [disabled]="!timeslot.available"
+    class="py-2.5 px-4 border rounded-lg text-sm font-medium transition-all duration-200" [class]="buttonClasses">
+    
+    {{ timeslot.time }}
+</button>
